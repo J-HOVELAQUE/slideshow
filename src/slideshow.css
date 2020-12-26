@@ -1,0 +1,9 @@
+.slide {
+    border: solid 1px red;
+}
+
+p {color: red}
+
+.slideshow {
+    width: 100px;
+}
