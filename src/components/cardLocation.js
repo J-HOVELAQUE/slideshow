@@ -2,26 +2,26 @@ import React from 'react';
 
 import './cardLocation.css';
 
-function CardLocation(props) {
+function CardLocation({ data }) {
 
     return (
         <div className="cardLocation">
-            <h3 className="titleLoc">Colocation 4 pers.</h3>
+            <h3 className="titleLoc">{data.title}</h3>
 
             <div>
                 <div className="tenant">
                     <img src="/avatar.jpg" alt="avatar pict" className="avatar" />
                     <div className="avatar-desc">
-                        <p>H-C. HOVELAQUE</p>
-                        <p className="badgeJob">CDI</p>
+                        <p>{data.candidate_1.name.toUpperCase()}</p>
+                        <p className="badgeJob">{data.candidate_1.status}</p>
                     </div>
                 </div>
 
                 <div className="tenant">
                     <img src="/avatar.jpg" alt="avatar pict" className="avatar" />
                     <div className="avatar-desc">
-                        <p>J. HOVELAQUE</p>
-                        <p className="badgeJob">Profession libérale</p>
+                        <p>{data.candidate_2.name.toUpperCase()}</p>
+                        <p className="badgeJob">{data.candidate_2.status}</p>
                     </div>
                 </div>
             </div>
@@ -30,21 +30,21 @@ function CardLocation(props) {
             <div className="revenuBox">
                 <div className="candidate">
                     <p>Candidats</p>
-                    <p className="amount">5206 €</p>
+                    <p className="amount">{data.rev_candidate} €</p>
                 </div>
                 <div className="candidate">
                     <p>Garants</p>
-                    <p className="amount">6700 €</p>
+                    <p className="amount">{data.rev_garant} €</p>
                 </div>
             </div>
 
             <button>Voir plus</button>
-            <footer>Visite du 13 mars à 10h15</footer>
+            <footer>Visite du {data.visit}</footer>
         </div>
     )
 }
 
-export default function DeckCard() {
+function DeckCard() {
 
     return (
         <div className="deckCard">
@@ -55,3 +55,5 @@ export default function DeckCard() {
 
     )
 };
+
+export { CardLocation, DeckCard };
