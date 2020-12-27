@@ -1,3 +1,7 @@
 .slideshow {
     width: 700px
 }
+
+path {
+    fill: rgb(197, 196, 196);
+}

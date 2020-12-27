@@ -7,7 +7,6 @@ import './slideshow.css';
 
 import { CardLocation } from './cardLocation';
 
-
 const Slideshow = ({ data }) => {
 
     const n = 3;
@@ -17,8 +16,10 @@ const Slideshow = ({ data }) => {
         (i % n ? r[r.length - 1].push(e) : r.push([e])) && r
         , []);
 
+
     return (
         <div className="slide-container slideshow">
+
             <Slide>
                 {groupedData.map((groupedElement, i) => {
                     return (
