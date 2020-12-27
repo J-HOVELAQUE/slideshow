@@ -44,16 +44,4 @@ function CardLocation({ data }) {
     )
 }
 
-function DeckCard() {
-
-    return (
-        <div className="deckCard">
-            <CardLocation />
-            <CardLocation />
-            <CardLocation />
-        </div>
-
-    )
-};
-
-export { CardLocation, DeckCard };
+export { CardLocation };

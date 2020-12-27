@@ -1,30 +1,37 @@
 import React from 'react';
-import data from '../data/dataPlaceholder.json';
 
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 
 import './slideshow.css';
 
-import { CardLocation, DeckCard } from './cardLocation';
+import { CardLocation } from './cardLocation';
 
-// const dataCandidates = JSON.parse(data.applications);
 
-const Slideshow = () => {
+const Slideshow = ({ data }) => {
 
-    console.log(data.applications[0]);
+    const n = 3;
+
+    //// This function for grouping card in deck of three /////
+    const groupedData = data.applications.reduce((r, e, i) =>
+        (i % n ? r[r.length - 1].push(e) : r.push([e])) && r
+        , []);
+
     return (
         <div className="slide-container slideshow">
             <Slide>
-                {data.applications.map(element => {
+                {groupedData.map((groupedElement, i) => {
                     return (
-                        < div className="each-slide" >
+                        < div className="each-slide" key={i + "group"} >
                             <div className="image-container slide">
                                 <div className="deckCard">
-                                    <CardLocation data={element} />
-                                    <CardLocation data={element} />
-
-                                    <CardLocation data={element} />
+                                    {groupedElement.map((element, j) => {
+                                        return (
+                                            <CardLocation data={element}
+                                                key={j + i + "card"}
+                                            />
+                                        )
+                                    })}
                                 </div>
                             </div>
                         </ div>)
