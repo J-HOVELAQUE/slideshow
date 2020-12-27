@@ -1,10 +1,17 @@
 .slide {
-    border: solid 1px red;
+   
+   
 }
 
 /* p {color: red} */
 
 .slideshow {
-    width: 100px;
+    /* height: 100%; */
+    width: 600px;
+    /* display: flex; */
+    
 }
 
+.deck {
+    /* display: flex; */
+}

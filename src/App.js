@@ -6,7 +6,7 @@ import CardLocation from "./components/cardLocation";
 function App() {
   return (
     <div className="App">
-      <CardLocation />
+      <Slideshow />
     </div>
   );
 }

@@ -7,6 +7,7 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 0 8px  rgb(231, 231, 231) ;
+    margin:10px
 }
 
 .cardLocation h6 {
@@ -98,4 +99,8 @@ footer {
     border-radius: 0 0 10px 10px;
     font-size: 0.5em;
     padding: 5px 0 5px 0;
+}
+
+.deckCard {
+    display: flex;
 }

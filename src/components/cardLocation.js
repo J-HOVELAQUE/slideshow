@@ -44,4 +44,15 @@ function CardLocation() {
     )
 }
 
-export default CardLocation;
+export default function DeckCard() {
+
+    return (
+        <div className="deckCard">
+            <CardLocation />
+            <CardLocation />
+
+            <CardLocation />
+        </div>
+
+    )
+};
