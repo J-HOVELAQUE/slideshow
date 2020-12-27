@@ -1,22 +1,34 @@
 .cardLocation {
-    color: red;
-    height: 300px;
-    width: 300px;
-    border-radius: 30px;
-    border: 5px solid grey;
+    height: 220px;
+    width: 190px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 8px  rgb(231, 231, 231) ;
+}
+
+.cardLocation h6 {
+    margin-top: 15px;
+    width: 100%;
+    text-align:center;
+    font-size: 0.8em;
+    font-weight:400;
 }
 
 .tenant {
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start !important;
 }
 
 .avatar {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50px;
+    margin-right: 5px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -25,4 +37,65 @@ h1, h2, h3, h4, h5, h6, p {
 
 .revenuBox {
     display: flex;
+}
+
+.candidate {
+    margin: 1px 15px 5px 15px;
+}
+
+.cardLocation h3 {
+    font-size: small;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cardLocation button {
+    font-size: 0.6em;
+    margin-bottom: 8px;
+    width: 80%;
+    height: 17%;
+    border-radius: 5px;
+    border: none;
+    background-color: #3393F3;
+    color: #ffffff;
+}
+
+.cardLocation p {
+    font-size: 0.7em;
+    color: black;
+    margin: 0;
+}
+
+.avatar-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.badgeJob  {
+    font-size: 0.4em !important;
+    font-weight: 600;
+    border: #bcdbfc 1px solid;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    color: red;
+}
+
+.amount {
+    color: #3393F3 !important;
+    font-size: 0.8em !important;
+    font-weight:700;
+}
+
+footer {
+    background-color:  rgb(197, 196, 196);
+    color: #ffffff;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    font-size: 0.5em;
+    padding: 5px 0 5px 0;
 }
