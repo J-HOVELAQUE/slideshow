@@ -1,0 +1,144 @@
+{
+    "applications": [
+        {
+            "title": "Colocation 5 pers.",
+            "candidate_1": {
+                "name": "J. HOVELAQUE",
+                "status": "Sans emploi"
+            },
+            "candidate_2": {
+                "name": "L-H. HOVELAQUE",
+                "status": "CDI"
+            },
+            "rev_candidate": 5400,
+            "rev_garant": 6700,
+            "visit": "8 janvier à 9h30"
+        },
+        {
+            "title": "App 5 pièces",
+            "candidate_1": {
+                "name": "J-C. Graham",
+                "status": "Fonction publique"
+            },
+            "candidate_2": {
+                "name": "H. Leanne",
+                "status": "CDD"
+            },
+            "rev_candidate": 5800,
+            "rev_garant": 7700,
+            "visit": "14 janvier à 11h30"
+        },
+        {
+            "title": "Maison 3 pièces",
+            "candidate_1": {
+                "name": "J. Howell",
+                "status": "Fonction publique"
+            },
+            "candidate_2": {
+                "name": "L. Ervin ",
+                "status": "Profession libérale"
+            },
+            "rev_candidate": 4300,
+            "rev_garant": 5700,
+            "visit": "21 janvier à 14H"
+        },
+        {
+            "title": "Colocation 3 pers.",
+            "candidate_1": {
+                "name": "A. Bauch",
+                "status": "CDI"
+            },
+            "candidate_2": {
+                "name": "M-L. Clementine",
+                "status": "CDI"
+            },
+            "rev_candidate": 6300,
+            "rev_garant": 8600,
+            "visit": "4 février à 14H15"
+        },
+        {
+            "title": "Colocation 2 pers.",
+            "candidate_1": {
+                "name": "M. Lebsack",
+                "status": "CDI"
+            },
+            "candidate_2": {
+                "name": "D. Patricia",
+                "status": "Intermittent"
+            },
+            "rev_candidate": 4300,
+            "rev_garant": 7300,
+            "visit": "9 février à 11h"
+        },
+        {
+            "title": "Colocation 4 pers.",
+            "candidate_1": {
+                "name": "A. Dietrich",
+                "status": "CDD"
+            },
+            "candidate_2": {
+                "name": "J-C. Chelsey",
+                "status": "CDI"
+            },
+            "rev_candidate": 4300,
+            "rev_garant": 7300,
+            "visit": "14 février à 9h30"
+        },
+        {
+            "title": "Colocation 2 pers.",
+            "candidate_1": {
+                "name": "L. Corkery",
+                "status": "Profession libérale"
+            },
+            "candidate_2": {
+                "name": "S. Leopoldo",
+                "status": "CDI"
+            },
+            "rev_candidate": 6400,
+            "rev_garant": 9400,
+            "visit": "18 février à 13h30"
+        },
+        {
+            "title": "Maison 6 pièces",
+            "candidate_1": {
+                "name": "Kurtis Weissnat",
+                "status": "CDI"
+            },
+            "candidate_2": {
+                "name": "Kurtis Weissnat",
+                "status": "CDI"
+            },
+            "rev_candidate": 9700,
+            "rev_garant": 9900,
+            "visit": "21 février à 15h15"
+        },
+        {
+            "title": "Colocation 2 pers.",
+            "candidate_1": {
+                "name": "N. Runolfsdottir",
+                "status": "CDI"
+            },
+            "candidate_2": {
+                "name": "J-F. Nicholas",
+                "status": "CDI"
+            },
+            "rev_candidate": 3200,
+            "rev_garant": 6500,
+            "visit": "22 février à 9h"
+        },
+        {
+            "title": "App. 3 pièces",
+            "candidate_1": {
+                "name": "G. Reichert",
+                "status": "Fonction publique"
+            },
+            "candidate_2": {
+                "name": "H-C. Glenna",
+                "status": "Fonction publique"
+            },
+            "rev_candidate": 3200,
+            "rev_garant": 6500,
+            "visit": "28 février à 9h"
+        }
+    ]
+}

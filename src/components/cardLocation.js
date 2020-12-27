@@ -2,7 +2,7 @@ import React from 'react';
 
 import './cardLocation.css';
 
-function CardLocation() {
+function CardLocation(props) {
 
     return (
         <div className="cardLocation">
@@ -29,11 +29,11 @@ function CardLocation() {
             <h6>Revenu mensuel moyen</h6>
             <div className="revenuBox">
                 <div className="candidate">
-                    <p>Candidat</p>
+                    <p>Candidats</p>
                     <p className="amount">5206 €</p>
                 </div>
                 <div className="candidate">
-                    <p>Garant</p>
+                    <p>Garants</p>
                     <p className="amount">6700 €</p>
                 </div>
             </div>
@@ -50,7 +50,6 @@ export default function DeckCard() {
         <div className="deckCard">
             <CardLocation />
             <CardLocation />
-
             <CardLocation />
         </div>
 

@@ -103,4 +103,5 @@ footer {
 
 .deckCard {
     display: flex;
+    justify-content: center;
 }
